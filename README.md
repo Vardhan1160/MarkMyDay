@@ -299,10 +299,7 @@ Through studying and working with this project, I developed hands-on experience 
 
 | Developer | GitHub | Role |
 |---|---|---|
-| **Yash** | [@yashreddy1154](https://github.com/yashreddy1154) | Android Developer (Original) |
-| **Tarak** | [@Tarakreddy011](https://github.com/Tarakreddy011) | Android Developer (Original) |
-| **Teja Reddy** | [@TejaReddyKuru](https://github.com/TejaReddyKuru) | Android Developer (Original) |
-| **Guthula Venkata Sahitya Vardhan** | [@Vardhan1160](https://github.com/Vardhan1160) | Android Developer — Portfolio Contributor |
+| **Guthula Venkata Sahitya Vardhan** | [@Vardhan1160](https://github.com/Vardhan1160) | Android Developer  |
 
 ---
 
