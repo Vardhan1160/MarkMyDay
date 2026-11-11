@@ -1,0 +1,327 @@
+<resources>
+    <string name="app_name">MarkMyDay</string>
+    <string name="title_activity_add_staff">సిబ్బందిని జోడించండి</string>
+    <string name="title_activity_add_student">విద్యార్థిని జోడించండి</string>
+    <string name="settings">సెట్టింగులు</string>
+    <string name="profile_details">ప్రొఫైల్ వివరాలు</string>
+    <string name="preferences">ప్రాధాన్యతలు</string>
+    <string name="language">భాష</string>
+    <string name="dark_mode">డార్క్ మోడ్</string>
+    <string name="notifications">నోటిఫికేషన్లు</string>
+    <string name="more">మరిన్ని</string>
+    <string name="terms_and_policies">నిబంధనలు మరియు విధానాలు</string>
+    <string name="about_app">యాప్ గురించి</string>
+    <string name="app_creators">యాప్ సృష్టికర్తలు</string>
+    <string name="logout">లాగ్ అవుట్</string>
+    <string name="name_label">పేరు: %1$s</string>
+    <string name="role_label">పాత్ర: %1$s</string>
+    <string name="android_dev">ఆండ్రాయిడ్ దేవ్</string>
+    <string name="error_profile">లోపం: %1$s</string>
+    <string name="back">వెనుకకు</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="hindi">హిందీ</string>
+    <string name="english">ఇంగ్లీష్</string>
+    <string name="punjabi">పంజాబీ</string>
+    <string name="news_image">వార్తా చిత్రం</string>
+    <string name="no_title">శీర్షిక లేదు</string>
+    <string name="no_description">వివరణ లేదు</string>
+
+
+    <!-- Dashboard Strings -->
+    <string name="hello">హలో 👋,</string>
+    <string name="my_school_life">నా పాఠశాల జీవితం</string>
+    <string name="teacher_hub">టీచర్ హబ్</string>
+    <string name="admin_hub">అడ్మిన్ హబ్</string>
+    <string name="school_schedule">పాఠశాల షెడ్యూల్</string>
+    <string name="view_all">అన్నీ చూడండి</string>
+    <string name="my_dashboard">నా డాష్‌బోర్డ్</string>
+    <string name="faculty_portal">ఫ్యాకల్టీ పోర్టల్</string>
+    <string name="search_anything">ఏదైనా వెతకండి&#8230;</string>
+    <string name="keep_learning">నేర్చుకుంటూ ఉండండి! 🚀</string>
+    <string name="assignments_due">మీకు త్వరలో 3 అసైన్‌మెంట్‌లు ఉన్నాయి.</string>
+    <string name="class_in_session">క్లాస్ జరుగుతోంది 👩‍🏫</string>
+    <string name="next_class_starts">మీ తదుపరి క్లాస్ 15 నిమిషాల్లో ప్రారంభమవుతుంది.</string>
+
+    <!-- Tile Labels -->
+    <string name="tile_attendance">హాజరు</string>
+    <string name="tile_assignments">అసైన్‌మెంట్‌లు</string>
+    <string name="tile_results">నా ఫలితాలు</string>
+    <string name="tile_leave">సెలవు కోసం దరఖాస్తు చేయండి</string>
+    <string name="tile_manage_leaves">సెలవులను నిర్వహించండి</string>
+    <string name="tile_updates">గ్లోబల్ అప్‌డేట్‌లు</string>
+    <string name="tile_exams">రాబోయే పరీక్షలు</string>
+    <string name="tile_fees">ఫీజు స్టేట్‌మెంట్</string>
+    <string name="tile_mark_attendance">హాజరును గుర్తించండి</string>
+    <string name="tile_post_results">ఫలితాలను పోస్ట్ చేయండి</string>
+    <string name="tile_leave_request">సెలవు అభ్యర్థన</string>
+    <string name="tile_manage_exams">పరీక్షలను నిర్వహించండి</string>
+    <string name="tile_notices">నోటీసులు</string>
+    <string name="tile_teacher_attendance">ఉపాధ్యాయుల హాజరు</string>
+    <string name="tile_my_home_students">నా హోమ్ విద్యార్థులు</string>
+    <string name="tile_new_admission">కొత్త ప్రవేశం</string>
+    <string name="tile_messages">సందేశాలు</string>
+    <string name="tile_admissions">ప్రవేశాలు</string>
+    <string name="tile_staff_management">సిబ్బంది నిర్వహణ</string>
+    <string name="tile_student_management">విద్యార్థి నిర్వహణ</string>
+    <string name="tile_add_staff">సిబ్బందిని జోడించండి</string>
+    <string name="tile_add_student">విద్యార్థిని జోడించండి</string>
+    <string name="tile_create_timetable">టైమ్‌టేబుల్ సృష్టించండి</string>
+
+    <!-- Navigation Labels -->
+    <string name="nav_home">హోమ్</string>
+    <string name="nav_notices">నోటీసులు</string>
+    <string name="nav_learning">నేర్చుకోవడం</string>
+    <string name="nav_reports">నివేదికలు</string>
+    <string name="manage_your_school">మీ పాఠశాలను నిర్వహించండి 🏫</string>
+    <string name="everything_in_one_place">మీకు కావలసినవన్నీ ఒకే చోట.</string>
+    <string name="dashboard_overview">డాష్‌బోర్డ్ అవలోకనం</string>
+    <string name="made_for_futures">ఉజ్వల భవిష్యత్తు కోసం రూపొందించబడింది</string>
+    <string name="tile_staff_list">సిబ్బంది జాబితా</string>
+    <string name="tile_daily_overview">రోజువారీ అవలోకనం</string>
+    <string name="tile_upload_quiz">క్విజ్ అప్‌లోడ్ చేయండి</string>
+    <string name="tile_course_manager">కోర్సు మేనేజర్</string>
+    <string name="tile_timetables">టైమ్‌టేబుల్స్</string>
+    <string name="tile_students">విద్యార్థులు</string>
+
+    <!-- Admissions Screen -->
+    <string name="student_admissions">విద్యార్థుల ప్రవేశాలు</string>
+    <string name="new_admission_form">కొత్త ప్రవేశ ఫారమ్ 📝</string>
+    <string name="student_name">విద్యార్థి పేరు</string>
+    <string name="age">వయస్సు</string>
+    <string name="class_label">తరగతి</string>
+    <string name="parent_name">తల్లిదండ్రుల పేరు</string>
+    <string name="phone_number">ఫోన్ నంబర్</string>
+    <string name="submit_admission">ప్రవేశాన్ని సమర్పించండి</string>
+    <string name="students_list_title">విద్యార్థుల జాబితా</string>
+    <string name="admission_no_label">అడ్మిషన్ నంబర్: %1$s</string>
+    <string name="parent_label">తల్లిదండ్రులు: %1$s</string>
+    <string name="class_label_simple">తరగతి: %1$s</string>
+    <string name="password_label">పాస్‌వర్డ్: ••••••••</string>
+    <string name="student_list_count">విద్యార్థుల జాబితా (%1$d)</string>
+    <string name="no_admissions_yet">ఇంకా ప్రవేశాలు జోడించబడలేదు.</string>
+    <string name="class_prefix">తరగతి: %1$s</string>
+    <string name="by_prefix">ద్వారా: %1$s</string>
+    <string name="delete_admission">అడ్మిషన్ తొలగించు</string>
+    <string name="delete_admission_confirm">మీరు ఖచ్చితంగా ఈ అడ్మిషన్ రికార్డును తొలగించాలనుకుంటున్నారా?</string>
+    <string name="edit_admission">అడ్మిషన్ సవరించు</string>
+    <string name="update_admission">అడ్మిషన్ అప్‌డేట్ చేయండి</string>
+
+    <!-- Happenings Screen -->
+    <string name="happenings_title">నోటీసులు &amp; ఈవెంట్‌లు</string>
+    <string name="latest_updates">తాజా పాఠశాల అప్‌డేట్‌లు 📢</string>
+    <string name="no_notices">ఈరోజు కొత్త నోటీసులు ఏవీ లేవు.</string>
+
+    <!-- Learning Screen -->
+    <string name="learning_center">లెర్నింగ్ సెంటర్</string>
+    <string name="my_courses">నా కోర్సులు 📚</string>
+    <string name="study_material_empty">మీ స్టడీ మెటీరియల్ ఇక్కడ కనిపిస్తుంది.</string>
+
+    <!-- Reports Screen -->
+    <string name="performance_reports">పనితీరు నివేదికలు</string>
+    <string name="academic_progress">విద్యా పురోగతి 📊</string>
+    <string name="report_cards_status">పరీక్షల తర్వాత రిపోర్ట్ కార్డ్‌లు అందుబాటులో ఉంటాయి.</string>
+
+    <!-- Terms Screen -->
+    <string name="privacy_policy">గోప్యతా విధానం</string>
+    <string name="privacy_content">మేము మీ గోప్యతను గౌరవిస్తాము. మీ డేటా అంతా మా పాఠశాల నిర్వహణ వ్యవస్థలో సురక్షితంగా నిల్వ చేయబడుతుంది.</string>
+    <string name="terms_of_service">సేవా నిబంధనలు</string>
+    <string name="terms_content">MarkMyDayని ఉపయోగించడం ద్వారా, మీరు మా సంస్థ యొక్క ప్రవర్తనా నియమావళిని అనుసరించడానికి అంగీకరిస్తున్నారు.</string>
+
+    <!-- About Screen -->
+    <string name="app_version">వెర్షన్ %1$s</string>
+    <string name="about_content">MarkMyDay అనేది నిర్వాహకులు, ఉపాధ్యాయులు మరియు విద్యార్థుల మధ్య కమ్యూనికేషన్ను క్రమబద్ధీకరించడానికి రూపొందించబడిన సమగ్ర పాఠశాల నిర్వహణ వ్యవస్థ.</string>
+
+    <!-- Authentication Screen -->
+    <string name="learning_adventure">మీ లెర్నింగ్ అడ్వెంచర్‌ను ప్రారంభిద్దాం</string>
+    <string name="start_learning">నేర్చుకోవడం ప్రారంభించండి</string>
+    <string name="welcome_back">తిరిగి స్వాగతం!</string>
+    <string name="sign_in_continue">మీ ప్రయాణాన్ని కొనసాగించడానికి సైన్ ఇన్ చేయండి</string>
+    <string name="user_id">యూజర్ ఐడి</string>
+    <string name="email">ఈమెయిల్</string>
+    <string name="password">పాస్‌వర్డ్</string>
+    <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+    <string name="login_button">లాగిన్</string>
+    <string name="logging_in">మిమ్మల్ని లాగిన్ చేస్తున్నాము&#8230;</string>
+    <string name="dont_know_details">వివరాలు తెలియవా? </string>
+    <string name="forget_credentials">రుజువులను మర్చిపోయారా</string>
+    <string name="error_empty_fields">దయచేసి యూజర్ ఐడి మరియు పాస్‌వర్డ్ నమోదు చేయండి</string>
+    <string name="feature_coming_soon">ఫీచర్ త్వరలో వస్తుంది</string>
+
+    <!-- Add Staff Screen -->
+    <string name="staff_added_success">యూజర్ ఐడి తో టీచర్ జోడించబడ్డారు: %1$s</string>
+    <string name="add_new_staff">టీచర్ రిజిస్ట్రేషన్</string>
+    <string name="error_title">లోపం</string>
+    <string name="ok">సరే</string>
+    <string name="cancel">రద్దు చేయండి</string>
+    <string name="age_limit_error">వయస్సు 100 సంవత్సరాలు లేదా అంతకంటే తక్కువ ఉండాలి. దయచేసి సరైన తేదీని ఎంచుకోండి.</string>
+    <string name="teacher_registration">ఉపాధ్యాయ నమోదు</string>
+    <string name="fields_completed">%1$d / %2$d అవసరమైన ఫీల్డ్‌లు పూర్తయ్యాయి</string>
+    <string name="full_name">పూర్తి పేరు</string>
+    <string name="age_auto">వయస్సు (ఆటోమేటిక్)</string>
+    <string name="date_of_birth">పుట్టిన తేదీ</string>
+    <string name="pick_date">తేదీని ఎంచుకోండి</string>
+    <string name="email_address">ఈమెయిల్ చిరునామా</string>
+    <string name="primary_subject">ప్రధాన విషయం</string>
+    <string name="home_section">హోమ్ సెక్షన్</string>
+    <string name="classes_taught">బోధించే తరగతులు</string>
+    <string name="submit">సమర్పించండి</string>
+    <string name="class_format">తరగతి %1$d</string>
+    <string name="gender">లింగం</string>
+    <string name="male">పురుషుడు</string>
+    <string name="female">స్త్రీ</string>
+    <string name="primary">ప్రాథమిక</string>
+    <string name="secondary">సెకండరీ</string>
+    <string name="high_school">హై స్కూల్</string>
+    <string name="adding_data_to_db">డేటాబేస్ లోకి డేటా జోడించబడుతోంది</string>
+    <string name="subject_telugu">తెలుగు</string>
+    <string name="subject_hindi">హిందీ</string>
+    <string name="subject_english">ఇంగ్లీష్</string>
+    <string name="subject_math">గణితం</string>
+    <string name="subject_science">సైన్స్</string>
+    <string name="subject_social">సోషల్</string>
+    <string name="subject_physics">ఫిజిక్స్</string>
+    <string name="subject_biology">బయాలజీ</string>
+    <string name="subject_japanese">జపనీస్</string>
+
+    <!-- Create Timetable -->
+    <string name="create_timetable_title">టైమ్‌టేబుల్ సృష్టించండి</string>
+    <string name="step_1_name">హోమ్ టీచర్‌ను జోడించండి</string>
+    <string name="step_2_name">విద్యార్థులను జోడించండి</string>
+    <string name="step_3_name">టైమ్‌టేబుల్‌ను సవరించండి</string>
+    <string name="step_4_name">టైమ్‌టేబుల్‌ను సవరించండి</string>
+    <string name="next">తరువాత</string>
+    <string name="select_teacher">టీచర్‌ను ఎంచుకోండి</string>
+    <string name="add_teacher">ఉపాధ్యాయుడిని చేర్చండి</string>
+    <string name="edit_teacher">ఉపాధ్యాయుడిని సవరించండి</string>
+    <string name="teacher_name_label">పేరు: %1$s</string>
+    <string name="primary_subject_label">ప్రైమరీ సబ్జెక్ట్: %1$s</string>
+    <string name="category_label_simple">వర్గం: %1$s</string>
+    <string name="home_teacher_assigned">హోమ్ టీచర్ విజయవంతంగా కేటాయించబడ్డారు</string>
+    <string name="loading_step">లోడ్ అవుతోంది&#8230;</string>
+    <string name="select_students_title">%1$s విద్యార్థులను ఎంచుకోండి</string>
+    <string name="list_of_students">విద్యార్థుల జాబితా</string>
+    <string name="home_teacher_label">HT: %1$s</string>
+    <string name="student_count">%1$d విద్యార్థులు</string>
+    <string name="edit_timetable">టైమ్‌టేబుల్‌ను సవరించండి</string>
+    <string name="monday">సోమ</string>
+    <string name="tuesday">మంగళ</string>
+    <string name="wednesday">బుధ</string>
+    <string name="thursday">గురు</string>
+    <string name="friday">శుక్ర</string>
+    <string name="saturday">శని</string>
+    <string name="period_label">పిరియడ్ %1$d</string>
+    <string name="home_room">హోమ్ రూమ్</string>
+    <string name="select_subject">సబ్జెక్టును ఎంచుకోండి</string>
+    <string name="busy_label">(బిజీ)</string>
+    <string name="save_period">పిరియడ్‌ను సేవ్ చేయండి</string>
+    <string name="weekly_classes">వారపు\nతరగతులు</string>
+    <string name="total_classes_format">మొత్తం తరగతులు: %1$d / %2$d</string>
+    <string name="max_periods_hint">గరిష్టంగా %1$d పిరియడ్‌లు</string>
+    <string name="home_teacher_badge">హోమ్ టీచర్</string>
+    <string name="home_teacher_error">హోమ్ టీచర్‌ను ఎంచుకోవాలి</string>
+    <string name="select_teacher_for_subject">%1$s కోసం టీచర్‌ను ఎంచుకోండి</string>
+    <string name="no_teachers_found_error">ఈ సబ్జెక్ట్ మరియు తరగతి వర్గానికి టీచర్లు ఎవరూ కనుగొనబడలేదు.</string>
+    <string name="subject_quotas_title">సబ్జెక్ట్ కోటాలు (వారపు)</string>
+    <string name="edit_period_title">పిరియడ్ %1$dని సవరించండి</string>
+    <string name="no_subject">సబ్జెక్ట్ లేదు</string>
+    <string name="no_teacher_assigned">టీచర్ కేటాయించబడలేదు</string>
+    <string name="weekly_quota_title">వారపు కోటా</string>
+    <string name="weekly_quota_placeholder">%1$s కోసం వారపు కోటా స్క్రీన్</string>
+    <string name="edit_timetable_placeholder">%1$s కోసం టైమ్‌టేబుల్ సవరణ స్క్రీన్</string>
+    <string name="subject_telugu_label">తెలుగు</string>
+    <string name="subject_hindi_label">హిందీ</string>
+    <string name="subject_english_label">ఇంగ్లీష్</string>
+    <string name="subject_math_label">గణితం</string>
+    <string name="subject_science_label">సైన్స్</string>
+    <string name="subject_social_label">సోషల్</string>
+    <string name="subject_physics_label">ఫిజిక్స్</string>
+    <string name="subject_biology_label">బయాలజీ</string>
+    <string name="subject_computer_label">కంప్యూటర్</string>
+
+    <!-- Add Student Screen -->
+    <string name="student_added_success">విద్యార్థి విజయవంతంగా జోడించబడ్డారు! అడ్మిషన్ నంబర్: %1$s</string>
+    <string name="add_new_student">విద్యార్థి నమోదు</string>
+    <string name="registration_error">నమోదు లోపం</string>
+    <string name="student_registration">విద్యార్థి నమోదు</string>
+    <string name="dob_label">పుట్టిన తేదీ</string>
+    <string name="email_optional">ఈమెయిల్ (ఐచ్ఛికం)</string>
+    <string name="select_class">తరగతి</string>
+    <string name="select_section">విభాగాన్ని ఎంచుకోండి</string>
+    <string name="error_enter_student_name">దయచేసి విద్యార్థి పేరును నమోదు చేయండి</string>
+    <string name="error_select_class">దయచేసి తరగతిని ఎంచుకోండి</string>
+    <string name="error_select_dob">దయచేసి పుట్టిన తేదీని ఎంచుకోండి</string>
+    <string name="error_registration_failed">నమోదు విఫలమైంది</string>
+    <string name="error_invalid_dob_format">చెల్లని పుట్టిన తేదీ ఆకృతి. 8 అంకెలు (ddMMyyyy) ఆశించబడ్డాయి.</string>
+    <string name="error_login_failed">లాగిన్ విఫలమైంది. దయచేసి మీ ఆధారాలను తనిఖీ చేయండి.</string>
+    <string name="error_user_not_found">వినియోగదారు ప్రొఫైల్ కనుగొనబడలేదు.</string>
+    <string name="error_unknown">తెలియని లోపం సంభవించింది</string>
+    <string name="mother_name">తల్లి పేరు</string>
+    <string name="mother_phone">తల్లి ఫోన్</string>
+    <string name="father_name">తండ్రి పేరు</string>
+    <string name="father_phone">తండ్రి ఫోన్</string>
+    <string name="error_parent_details">కనీసం ఒక తల్లిదండ్రుల వివరాలు అవసరం</string>
+    <string name="adding_to_database">డేటాబేస్ కు డేటాను జోడిస్తోంది</string>
+
+
+    <!-- Staff Management Screen -->
+    <string name="delete_staff">సిబ్బందిని తొలగించండి</string>
+    <string name="delete_confirmation">మీరు ఖచ్చితంగా %1$sని తొలగించాలనుకుంటున్నారా?</string>
+    <string name="delete">తొలగించండి</string>
+    <string name="edit_staff_details">సిబ్బంది వివరాలను సవరించండి</string>
+    <string name="search_placeholder">పేరు లేదా ID ద్వారా వెతకండి</string>
+    <string name="staff_list_title">ఉపాధ్యాయుల జాబితా</string>
+    <string name="category_label">వర్గం: %1$s</string>
+    <string name="name_simple">పేరు</string>
+    <string name="subject_simple">విషయం</string>
+    <string name="category_simple">వర్గం</string>
+    <string name="search_instruction">వివరాలను చూడటానికి సిబ్బంది కోసం వెతకండి</string>
+    <string name="id_label">ID: %1$s</string>
+    <string name="edit">సవరించండి</string>
+
+    <!-- Attendance Screen -->
+    <string name="attendance_success">హాజరు విజయవంతంగా సమర్పించబడింది!</string>
+    <string name="submit_attendance">హాజరును సమర్పించండి</string>
+    <string name="no_classes_assigned">మీకు ఎటువంటి తరగతులు కేటాయించబడలేదు.</string>
+    <string name="no_students_found">%1$s కోసం విద్యార్థులు ఎవరూ కనుగొనబడలేదు.</string>
+    <string name="present">హాజరు</string>
+    <string name="absent">గైర్హాజరు</string>
+
+    <!-- Global Updates Screen -->
+    <string name="title_global_updates">గ్లోబల్ అప్‌డేట్‌లు</string>
+    <string name="hot_news">తాజా వార్తలు</string>
+    <string name="more_updates">మరిన్ని అప్‌డేట్‌లు 📰</string>
+
+    <!-- Role Selector Screen -->
+    <string name="app_tagline">మీ పాఠశాల, సులభంగా నిర్వహించబడుతుంది</string>
+    <string name="continue_as">దీనిలా కొనసాగండి</string>
+    <string name="role_student">విద్యార్థి</string>
+    <string name="student_desc">హాజరు, మార్కులు &amp; మరిన్ని చూడండి</string>
+    <string name="role_teacher">ఉపాధ్యాయుడు</string>
+    <string name="teacher_desc">తరగతులు &amp; అసైన్‌మెంట్‌లను నిర్వహించండి</string>
+    <string name="role_admin">అడ్మినిస్ట్రేటర్</string>
+    <string name="admin_desc">పూర్తి పాఠశాల హబ్ నిర్వహణ</string>
+    <!-- Global Updates Screen Dummy Data -->
+    <string name="dummy_news_title_1">కొత్త విద్యా విధానం ప్రకటించబడింది</string>
+    <string name="dummy_news_desc_1">భారతదేశం పాఠశాలల కోసం కొత్త డిజిటల్ లెర్నింగ్ సంస్కరణలను ప్రవేశపెట్టింది&#8230;</string>
+    <string name="dummy_news_title_2">పాఠశాలల్లో AI</string>
+    <string name="dummy_news_desc_2">పాఠశాలలు ప్రారంభ గ్రేడ్‌ల కోసం AIని ఒక సబ్జెక్టుగా పరిచయం చేస్తున్నాయి&#8230;</string>
+    <string name="dummy_news_title_3">పరీక్షా విధానం మార్చబడింది</string>
+    <string name="dummy_news_desc_3">CBSE 2026 విద్యా సంవత్సరం కోసం పరీక్షా విధానాన్ని అప్‌డేట్ చేసింది&#8230;</string>
+    <string name="dummy_news_title_4">డిజిటల్ లైబ్రరీ యాక్సెస్</string>
+    <string name="dummy_news_desc_4">విద్యార్థులకు జాతీయ డిజిటల్ లైబ్రరీకి ఉచిత ప్రవేశం లభిస్తుంది&#8230;</string>
+    <string name="dummy_news_title_5">వేసవి సెలవులు 2024</string>
+    <string name="dummy_news_desc_5">రాబోయే వేసవి సెలవుల అధికారిక షెడ్యూల్ విడుదల చేయబడింది.</string>
+    <string name="dummy_news_title_6">స్పోర్ట్స్ మీట్ 2024</string>
+    <string name="dummy_news_desc_6">వార్షిక ఇంటర్-స్కూల్ క్రీడల పోటీ వచ్చే నెలలో ప్రారంభమవుతుంది.</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_title">లీడర్‌బోర్డ్</string>
+    <string name="privacy_placeholder">---</string>
+    <string name="score_format">%1$d/%2$d</string>
+    <string name="leisure_period">ఖాళీ పిరియడ్</string>
+    <string name="quota_limit_error">గరిష్ట పరిమితిని మించకూడదు</string>
+    <string name="teacher_conflict_error">టీచర్ %1$s ఈ సమయంలో ఇప్పటికే %2$s కి కేటాయించబడ్డారు</string>
+    <string name="select_subject_dialog_title">సబ్జెక్టును ఎంచుకోండి</string>
+    <string name="no_quota_left">కోటా ఏమీ లేదు!</string>
+    <string name="assign_teachers_error">దయచేసి మొదట వారపు కోటాలోని అన్ని సబ్జెక్టులకు టీచర్లను కేటాయించండి.</string>
+</resources>

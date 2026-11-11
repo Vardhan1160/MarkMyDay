@@ -1,0 +1,103 @@
+# ============================================================
+# MarkMyDay — Android Project .gitignore
+# Kotlin + Jetpack Compose + Firebase + Gradle
+# ============================================================
+
+# ===================== BUILD OUTPUTS ========================
+/build/
+app/build/
+**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ===================== GRADLE ================================
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+local.properties
+.gradletasknamecache
+*.iml
+
+# ===================== ANDROID STUDIO / INTELLIJ =============
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+*.iws
+*.eml
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/runConfigurations.xml
+.idea/misc.xml
+.idea/appInsightsSettings.xml
+.idea/compiler.xml
+.idea/git_toolbox_prj.xml
+.idea/markdown.xml
+.idea/material_theme_project_new.xml
+.idea/planningMode.xml
+.idea/studiobot.xml
+
+# ===================== NATIVE BUILD ==========================
+.externalNativeBuild/
+.cxx/
+*.so
+*.o
+
+# ===================== KEYSTORE / SIGNING ====================
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+release.properties
+
+# ===================== FIREBASE / SECRETS ====================
+# NOTE: google-services.json is intentionally included for
+# this academic portfolio project so the app can be built.
+# In a production project, this would be excluded.
+# google-services.json
+
+# Firebase Cloud Functions
+functions/node_modules/
+functions/lib/
+functions/package-lock.json
+functions/.runtimeconfig.json
+
+# ===================== OS FILES ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================== COVERAGE / REPORTS ====================
+captures/
+*.hprof
+lint/
+*.sarif
+
+# ===================== VSCODE ================================
+.vscode/
+*.code-workspace
+
+# ===================== PROGUARD MAPPING ======================
+app/release/
+mapping.txt
+
+# ===================== ARTIFACTS =====+======================
+.artifacts/

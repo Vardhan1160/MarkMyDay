@@ -1,0 +1,60 @@
+package com.project.markmyday.data.repository
+
+import com.google.firebase.firestore.FirebaseFirestore
+import com.project.markmyday.data.model.CourseVideo
+import kotlinx.coroutines.tasks.await
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+
+class CourseRepository {
+    private val firestore = FirebaseFirestore.getInstance()
+    private val courseCollection = firestore.collection("video_courses")
+
+    fun getAllCourses(): Flow<List<CourseVideo>> = flow {
+        try {
+            val snapshot = courseCollection
+                .get()
+                .await()
+            val courses = snapshot.documents.mapNotNull { doc ->
+                doc.toObject(CourseVideo::class.java)?.copy(id = doc.id)
+            }
+            android.util.Log.d("CourseRepo", "Firestore returned ${courses.size} courses (Global)")
+            emit(courses)
+        } catch (e: Exception) {
+            android.util.Log.e("CourseRepo", "Firestore query failed", e)
+            emit(emptyList())
+        }
+    }
+
+    suspend fun uploadVideos(videos: List<CourseVideo>): Result<Int> {
+        return try {
+            val batch = firestore.batch()
+            videos.forEach { video ->
+                val docRef = courseCollection.document()
+                batch.set(docRef, video)
+            }
+            batch.commit().await()
+            Result.success(videos.size)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    suspend fun addCourse(video: CourseVideo): Result<Unit> {
+        return try {
+            courseCollection.document().set(video).await()
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    suspend fun deleteCourse(id: String): Result<Unit> {
+        return try {
+            courseCollection.document(id).delete().await()
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+}
