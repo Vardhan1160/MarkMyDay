@@ -305,7 +305,7 @@ Through studying and working with this project, I developed hands-on experience 
 
 ## 📄 License
 
-This project is for educational and portfolio purposes. Original source code is the work of the original creators (Yash, Tarak, Teja Reddy). Extended and documented by Guthula Venkata Sahitya Vardhan as part of an Android development internship.
+This project is for educational and portfolio purposes. Original source code is the work of the original creators (Guthula Venkata Sahitya Vardhan). Extended and documented by Guthula Venkata Sahitya Vardhan as part of an Android development internship.
 
 ---
 
