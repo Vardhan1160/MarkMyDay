@@ -265,7 +265,7 @@ Language changes use `AppCompatDelegate.setApplicationLocales()` and re-render t
 
 ## ✨ My Contributions
 
-This project was originally developed by the original team (credited below). As part of my **Android App Development Internship** at **Supraja Technologies**, I studied, analyzed, and extended the project with the following contributions:
+I worked on the MarkMyDay Android application, focusing on understanding its complete architecture, Android development workflow, feature implementation, customization, and project enhancement. My work covers the following areas:
 
 ### 🔍 Code Analysis & Documentation
 - Performed a complete architectural analysis of the MVVM pattern across 42 screens and 25 ViewModels
